@@ -16,6 +16,7 @@ import ja from './ja'
 import es from './es'
 import ko from './ko'
 import fr from './fr'
+import ca from './ca'
 
 export default {
   'en': en,
@@ -35,5 +36,6 @@ export default {
   'ar': ar,
   'es': es,
   'ko': ko,
-  'fr': fr
+  'fr': fr,
+  'ca': ca
 }
