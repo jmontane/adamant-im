@@ -22,7 +22,7 @@ export default {
     'version': 'Versió de l\'aplicació: ',
     'language_label': 'Llengua: ',
     'exit_on_close': 'Surt en tancar la pestanya',
-    'exit_on_close_tooltip': 'For your wallet security we recommend you keep this checked. In case you\'ll uncheck it, your passphrase will be saved in browser storage, and next time you open the wallet it will be decripted with no need to enter a passphrase. It is acceptable only in case noone else can access your device.',
+    'exit_on_close_tooltip': 'Per a la seguretat de la vostra cartera, us recomanem de marcar aquesta opció. En cas que la desmarqueu, la contrasenya es desarà en l\'emmagatzematge del navegador i la següent vegada que obriu la cartera es desxifrarà sense necessitat d\'introduir una contrasenya. Això és acceptable només en el cas que ningú altre tingui accés al vostre aparell.',
     'send_on_enter': 'Envia el missatge amb la tecla Retorn',
     'send_on_enter_tooltip': 'Envia el missatge en picar la tecla Retorn, salt de línia o Maj+Retorn. La combinació de tecles predeterminada que s\'usa per a enviar els missatges és Ctrl (Cmd) + Retorn.',
     'general_title': 'General',
@@ -30,9 +30,9 @@ export default {
     'chats_title': 'Xats',
     'notification_title': 'Notificacions',
     'enable_sound': 'So',
-    'enable_sound_tooltip': 'Play a sound when new message arrives. It works not on all of devices. Mobile browsers will not play a sound when browser is not active.',
+    'enable_sound_tooltip': 'Reprodueix un so quan arriba un missatge. No funciona en tots els aparells. Els navegadors de mòbils no reproduiran cap so si no el navegadorno és actiu.',
     'enable_bar': 'Canvia el títol de la pestanya del navegador',
-    'enable_bar_tooltip': 'Shows new message counter in the tab title when new message arrives. Works for desktop browsers.',
+    'enable_bar_tooltip': 'Mostra un comptador de missatges nous en el títol de la pestanya quan arriba un missatge. Funciona en navegadors d\'escriptori.',
     'enable_desktop': 'Notificacions del navegador',
     'enable_desktop_tooltip': 'Usa les notificacions integrades del navegador (cal que ho accepteu)'
   },
@@ -49,24 +49,24 @@ export default {
     'send_button': 'Envia',
     'send_button_tooltip': 'Feu clic per a enviar un missatge',
     'recipient': 'Adreça del destinatari',
-    'recipient_tooltip': 'Introduïu l'identificador del destinatari, similar a U1234567890',
+    'recipient_tooltip': 'Introduïu l\'identificador del destinatari, similar a U1234567890',
     'message': 'Escriviu el missatge',
     'estimate_fee': 'Comissió aproximada',
-    'welcome_message': '<p>Welcome to ADAMANT, the most secure and anonymous messenger. You are credited with bounty tokens, which you can use to get acquainted with the messenger.</p><p>Remember, your security and anonymity is up to you also. Do not follow links you receive, otherwise your IP can be compromised. Do not trust browser extensions. Better to share your ADM address personally, but not using other messengers. Keep your secret passphrase secure. Set a password on your device or logout before leaving.</p><p>Learn more about security and anonymity at <a href="https://adamant.im/staysecured/" target="_blank">https://adamant.im/staysecured/</a>.</p><p>Do not reply to this message, it is a system account.</p>',
+    'welcome_message': '<p>Us donem la benvinguda a l\'ADAMANT, la plataforma de missatgeria anònim més segura. You are credited with bounty tokens, which you can use to get acquainted with the messenger.</p><p>Recordeu, la vostra seguretat i anònimat és també cosa vostra. No seguiu enllaços que rebeu, altrament podeu comprometre la vostra IP. No confieu en les exte0nsions del navegador. Better to share your ADM address personally, but not using other messengers. Keep your secret passphrase secure. Set a password on your device or logout before leaving.</p><p>Learn more about security and anonymity at <a href="https://adamant.im/staysecured/" target="_blank">https://adamant.im/staysecured/</a>.</p><p>Do not reply to this message, it is a system account.</p>',
     'ico_message': '<p>You have a possibility to Join the ICO of ADAMANT, the most secure and anonymous messenger. Learn more on Adamant.im website or in the Whitepaper. If you still have any questions, you can ask them by replying to this message. We are eager to answer quickly, but sometimes delays for a couple of hours are possible.</p><p>Please make sure your have saved the passphrase to this account — exit your account and open it again. Better save your password on a sheet of paper also. But remember, only you are responsible for the passphrase safety. It cannot be recovered. And if other person will get it, your money will be stolen. Treat this question as secure, as if tokens in your wallet will cost a billion dollars some time.</p><p>To buy ADM tokens, go to Wallet tab and click Join the ICO, or open the page Adamant.im/ico/ in the web browser. In the ICO form enter your ADAMANT address — you will receive ADM tokens there. If you moved from Messenger App, your ADM address will be filled already, other way go back to Messenger and click ADAMANT address to copy it to clipboard. Next, choose crypto you want to spend and its amount. You\'ll see how much ADM tokens you will receive, including volume bonus: 20–30 ETH: +20%, 30–50 ETH: +30%, 50–90 ETH: +40%, 90+ ETH: +50%. Click Buy ADAMANT tokens. You\'ll get unique address where you need to send crypto. As soon as your transaction will be confirmed, you\'ll receive ADM tokens. Transaction can be done from any wallet or exchange. It is not necessary to transfer exact amount including transaction fees, the payment will be processed anyway. Have questions still? Ask us.</p><p>After you receive ADM tokens, we recommend to keep them as long as possible. All of unsold tokens during ICO will be distributed among users\' wallets, adding 5% monthly. Additional info is on Adamant.im website and in the Whitepaper.</p>',
     'date_today': 'Avui',
     'date_yesterday': 'Ahir',
     'date_tomorrow': 'Demà'
   },
   'home': {
-    'copied': 'S'ha copiat',
+    'copied': 'S\'ha copiat',
     'your_address': 'Adreça ADAMANT',
     'your_address_tooltip': 'Aquest és el vostre indentificador únic d\'ADAMANT. Feu clic per a copiar-lo al porta-retalls.',
     'your_balance': 'Saldo',
-    'your_balance_tooltip': 'Aquest és el vostre saldo d'\ADAMANT. Feu clic per a veure totes les transaccions d'entrada o sortida.',
+    'your_balance_tooltip': 'Aquest és el vostre saldo d\'ADAMANT. Feu clic per a veure totes les transferències d\'entrada o sortida.',
     'send_btn': 'Envia testimonis',
     'send_btn_tooltip': 'Feu clic per a transferir testimonis ADM a un altre usuari d\'ADAMANT',
-    'invest_btn': 'Uniu-vos a l'ICO',
+    'invest_btn': 'Uniu-vos a l\'ICO',
     'invest_btn_tooltip': 'Teniu la possibilitat de participar en l\'ICO de l\'ADAMANT, el sistema de missatgeria més segur i anònim. Feu clic per a anar al formulari d\'ICO Adamant.im/ico/.'
   },
   'transaction': {
@@ -90,10 +90,10 @@ export default {
     'error_incorrect_address': 'L\'adreça de la cartera no és correcta',
     'error_incorrect_amount': 'La quantitat no és correcta',
     'error_no_amount': 'Indiqueu una quantitat',
-    'error_not_enough': 'Not enough tokens',
+    'error_not_enough': 'No teniu prou testimonis',
     'confirm_title': 'Confirmació de la transferència',
-    'confirm_message': 'Confirmeu la transferència de <b>{amount} ADM</b> a l'adreça {target}.',
-    'confirm_approve': 'D'acord',
+    'confirm_message': 'Confirmeu la transferència de <b>{amount} ADM</b> a l\'adreça {target}.',
+    'confirm_approve': 'D\'acord',
     'confirm_cancel': 'Cancel·la'
   },
   'bottom': {
@@ -102,6 +102,6 @@ export default {
     'chats_button': 'Xats',
     'settings_button': 'Configuració',
     'exit_button': 'Surt',
-    'exit_button_tooltip': 'Despite of application settings, your passphrase will be cleared from browser storage. We recommend to perform exit every time after you are done with chats.'
+    'exit_button_tooltip': 'Tot i la configuració de l\'aplicació, la vostra contrasenya se suprimirà de l\'emmagatzematge del navegador. Us recomanem de sortir-ne cada vegada després d\'haver acabat de xatejar.'
   }
 }
